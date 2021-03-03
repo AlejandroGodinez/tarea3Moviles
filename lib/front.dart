@@ -14,6 +14,7 @@ class _FrontState extends State<Front> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          title: Text('Guess the word!', style: TextStyle(color: Colors.white),),
           backgroundColor: Colors.green,
         ),
         body: BlocProvider(
